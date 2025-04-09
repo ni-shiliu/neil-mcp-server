@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: mcp-mysql-stdio-server
+  main:
+    banner-mode: off
+    web-application-type: none
+  ai:
+    mcp:
+      server:
+        name: mcp-mysql-stdio-server
+        version: 0.0.1
+
+
+logging:
+  file:
+    name: ./mcp-mysql-stdio-server/logs/mcp-mysql-stdio-server.log
+  pattern:
+    console:

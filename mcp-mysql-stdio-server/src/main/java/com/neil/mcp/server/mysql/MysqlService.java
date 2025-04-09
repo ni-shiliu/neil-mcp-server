@@ -138,4 +138,10 @@ public class MysqlService {
         return result;
     }
 
+    @Tool(description = "describe table")
+    public List<Map<String, Object>> describeTable(String tableName) {
+        String sql = String.format("DESCRIBE %s", tableName);
+        return executeQuery(sql);
+    }
+
 }

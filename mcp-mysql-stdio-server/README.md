@@ -32,7 +32,7 @@
 #### 1. clone 工程
 
 ```shell
-https://github.com/ni-shiliu/neil-mcp-server.git
+git clone https://github.com/ni-shiliu/neil-mcp-server.git
 ```
 
 #### 2. package工程
